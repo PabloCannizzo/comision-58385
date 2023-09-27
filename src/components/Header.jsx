@@ -1,13 +1,13 @@
 const Header = () => {
 
     return (
-        <header>
+        <header className="header">
             <nav className="navbar">
-                <div id="navbarContenido" className="navbarContenido">
+                <div className="navbarContenido">
                     <ul>
                         <li>
                             <a href="./index.html">
-                                <h1>Mi proyecto React</h1>
+                                <h1>LiquorStore</h1>
                             </a>
                         </li>
                         <li>

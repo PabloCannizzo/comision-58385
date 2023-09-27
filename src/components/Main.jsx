@@ -1,10 +1,11 @@
-const Main = () => {
+const Main = (props) => {
 
     return (
-        <main>
-            <h2>Home</h2>
-            <h3>1er Pre-entrega</h3>
-            <p>Alumno: Cannizzo Pablo Arian</p>
+        <main className="main">
+            <h2>{props.Titulo}</h2>
+            <h3>{props.Subtitulo}</h3>
+            <p>{props.Alumno}</p>
+            <p>{props.Comision}</p>
         </main>
     )
 }

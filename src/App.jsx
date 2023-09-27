@@ -11,7 +11,11 @@ const App = () => {
   return (
     <>
       <Header />
-      <Main />
+      
+      <Main
+        Titulo="inicio de pagina" Subtitulo="1era Pre-Entrega" Alumno="CANNIZZO PABLO" Comision="Comisión: 48385"
+      />
+      
       <Footer />
     </>
   )
