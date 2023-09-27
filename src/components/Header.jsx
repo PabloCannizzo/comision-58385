@@ -1,7 +1,7 @@
 const Header = () => {
 
     return (
-        <>
+        <header>
             <nav className="navbar">
                 <div id="navbarContenido" className="navbarContenido">
                     <ul>
@@ -23,7 +23,7 @@ const Header = () => {
                     </ul>
                 </div>
             </nav>
-        </>
+        </header>
     )
 }
 
