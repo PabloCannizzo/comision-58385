@@ -2,20 +2,24 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg' */
 import './index.scss'
-import Header from "./components/Header/Header"
-import Main from "./components/Main/Main"
-import Footer from "./components/Footer/Footer"
+import Navbar from "./components/NavBar"
+import ItemListContainer from './components/itemListContainer'
+import Footer from "./components/Footer"
 
 const App = () => {
 
   return (
     <>
-      <Header />
-      
-      <Main
-        Titulo="inicio de pagina" Subtitulo="1era Pre-Entrega" Alumno="CANNIZZO PABLO" Comision="Comisión: 48385"
-      />
-      
+      <header>
+        <Navbar />
+      </header>
+
+      <main>
+        <ItemListContainer
+          Titulo="inicio de pagina" Subtitulo="2da Pre-Entrega" Alumno="CANNIZZO PABLO" Comision="Comisión: 48385"
+        />
+      </main>
+
       <Footer />
     </>
   )

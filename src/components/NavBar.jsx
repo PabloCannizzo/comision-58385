@@ -1,3 +1,5 @@
+import CartWidget from "./CartWidget"
+
 const NavBar = () => {
     return (
         <nav className="navbar">
@@ -12,12 +14,13 @@ const NavBar = () => {
                         <a href="#">productos</a>
                     </li>
                     <li>
-                        <a href="#">Envios</a>
+                        <a href="#">envios</a>
                     </li>
                     <form role="search">
-                        <input type="search" placeholder="Search" aria-label="Search"></input>
+                        <input type="search" placeholder="Busqueda" aria-label="Search"></input>
                         <button type="submit">Buscar</button>
                     </form>
+                    <CartWidget />
                 </ul>
             </div>
         </nav>
@@ -25,3 +28,9 @@ const NavBar = () => {
 }
 
 export default NavBar
+
+/* const [modoDark] = useState(true)
+
+    setTimeout(()=> {
+        modoDark = false
+    }, 2500) */
