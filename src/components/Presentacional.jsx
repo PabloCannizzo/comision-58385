@@ -1,4 +1,5 @@
-function Presentacional (props) {
+function Presentacional () {
+
     return(
         <div>
             Presentacional

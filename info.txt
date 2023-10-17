@@ -158,3 +158,18 @@ button:focus-visible {
                     <div class="logo-w">
                         <a href="../pages/mas-de-nosotros.html"><img src="../assets/img/logo-w-color.png" alt=""></a>
                     </div>
+
+
+===============================================
+
+UuseEFFECT del container, clase n°7
+
+const [state, setState] = useState([])
+useEffect(() => {
+        const resultado = getProductos()
+        resultado.then(productos => {
+            console.log("Termino de traerse el producto");
+            setState(productos)
+        })
+        
+    }, [])

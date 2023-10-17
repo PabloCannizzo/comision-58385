@@ -29,7 +29,7 @@ const Footer = () => {
                     </form>
                 </div>
             </div>
-            <div>
+            <div className="logo-whatsApp>">
                 <a href="./index.html">
                     <img src="./assets/img/logo-w-color.png" alt="WhatsApp" />
                 </a>
