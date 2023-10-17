@@ -6,22 +6,28 @@ import Navbar from "./components/NavBar"
 import ItemListContainer from './components/ItemListContainer'
 import Footer from "./components/Footer"
 import ItemDetailContainer from './components/ItemDetailContainer'
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Contactos from './components/Contactos'
 
-
-function App () {
+function App() {
 
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
+      <BrowserRouter>
+        <header>
+          <Navbar />
+        </header>
 
-      <main>
-        <ItemListContainer/>
-        <ItemDetailContainer itemId={1}/>
-      </main>
+        <main> 
+          <Routes>
+            <Route path="/" element={<ItemListContainer />} />
+            <Route path="/item" element={<ItemDetailContainer itemId={1} />} />
+            <Route path="/contactos" element={<Contactos/>} >
+          </Routes>
+        </main>
 
-      <Footer />
+        <Footer />
+      </BrowserRouter>
     </>
   )
 }

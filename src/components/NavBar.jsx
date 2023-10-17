@@ -3,15 +3,15 @@ import CartWidget from "./CartWidget"
 const NavBar = () => {
     return (
         <nav className="navbarContenido">
-            <a href="./index.html">
+            <a href="/">
                 <h1>LiquorStore</h1>
             </a>
             <ul>
                 <li>
-                    <a className="menu-links" href="">contactos</a>
+                    <a className="menu-links" href="/contactos">contactos</a>
                 </li>
                 <li>
-                    <a className="menu-links" href="#">productos</a>
+                    <a className="menu-links" href="/">productos</a>
                 </li>
                 <li>
                     <a className="menu-links" href="#">envios</a>
