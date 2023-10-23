@@ -7,7 +7,7 @@ import ItemListContainer from './components/ItemListContainer'
 import Footer from "./components/Footer"
 import Contactos from './components/Contactos'
 import ItemDetailContainer from './components/ItemDetailContainer'
-import {BrowserRouter, Route, Routes} from "react-router-dom"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 
 function App() {
@@ -19,15 +19,17 @@ function App() {
           <Navbar />
         </header>
 
-        <main> 
+        <main>
           <Routes>
             <Route path="/" element={<ItemListContainer />} />
-            <Route path="/item" element={<ItemDetailContainer itemId={1} />} />
-            <Route path="/contactos" element={<Contactos/>} />
+            <Route path="/Item/:id" element={<ItemDetailContainer />} />
+            <Route path="/contactos" element={<Contactos />} />
           </Routes>
         </main>
 
-        <Footer />
+        <footer>
+          <Footer />
+        </footer>
       </BrowserRouter>
     </>
   )

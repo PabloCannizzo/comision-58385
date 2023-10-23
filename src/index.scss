@@ -16,13 +16,17 @@ body,
 }
 
 .main {
-    flex-grow: 1;
-    padding: 3rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    .producto{
+        background-color: gray;
+        border-radius: 1rem;
+        text-align: center;
+        padding: 0.5rem;
+        margin: 1rem;
+    }
 
     .contador {
         display: flex;
@@ -105,4 +109,13 @@ body,
         }
     }
     
+}
+
+.detalle{
+    background-color: gray;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

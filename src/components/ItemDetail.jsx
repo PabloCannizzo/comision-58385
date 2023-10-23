@@ -2,7 +2,7 @@ import Contador from "./Contador"
 
 const ItemDetail = ({ item }) => {
     return (
-        <div>
+        <div className="detalle">
             <img src={item.imagen} />
             <h3>{item.nombre}</h3>
             <br />

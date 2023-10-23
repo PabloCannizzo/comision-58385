@@ -5,19 +5,19 @@ const Footer = () => {
                 <div>
                     <ul>
                         <li>
-                            <a href="./index.html">preguntas frecuentes</a>
+                            <a href="./Contactos">preguntas frecuentes</a>
                         </li>
                         <li>
-                            <a href="./index.html">comunidad</a>
+                            <a href="./Contactos">comunidad</a>
                         </li>
                         <li>
-                            <a href="./index.html">conocenos más</a>
+                            <a href="./Contactos">conocenos más</a>
                         </li>
                         <li>
-                            <a href="./index.html">contacto</a>
+                            <a href="./Contactos">contacto</a>
                         </li>
                         <li>
-                            <a href="./index.html">politicas de privacidad</a>
+                            <a href="./Contactos">politicas de privacidad</a>
                         </li>
                     </ul>
                 </div>
@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="logo-whatsApp>">
-                <a href="./index.html">
+                <a href="./Contactos">
                     <img src="./assets/img/logo-w-color.png" alt="WhatsApp" />
                 </a>
             </div>
