@@ -3,21 +3,21 @@ const Footer = () => {
         <footer>
             <div className="footer">
                 <div>
-                    <ul>
+                    <ul className="opciones">
                         <li>
-                            <a href="./Contactos">preguntas frecuentes</a>
+                            <a className="opciones-links"  href="./Contactos"/* to="/Contactos" */>preguntas frecuentes</a>
                         </li>
                         <li>
-                            <a href="./Contactos">comunidad</a>
+                            <a className="opciones-links"  href="./Contactos"/* to="/Contactos" */>comunidad</a>
                         </li>
                         <li>
-                            <a href="./Contactos">conocenos más</a>
+                            <a className="opciones-links"  href="./Contactos"/* to="/Contactos" */>conocenos más</a>
                         </li>
                         <li>
-                            <a href="./Contactos">contacto</a>
+                            <a className="opciones-links" href="./Contactos"/*  to="/Contactos" */>contacto</a>
                         </li>
                         <li>
-                            <a href="./Contactos">politicas de privacidad</a>
+                            <a className="opciones-links" href="./Contactos"/*  to="/Contactos" */>politicas de privacidad</a>
                         </li>
                     </ul>
                 </div>
@@ -29,12 +29,7 @@ const Footer = () => {
                     </form>
                 </div>
             </div>
-            <div className="logo-whatsApp>">
-                <a href="./Contactos">
-                    <img src="./assets/img/logo-w-color.png" alt="WhatsApp" />
-                </a>
-            </div>
-            <div>
+            <div className="derechos">
                 <p>&copy; 2023 Company, Inc. todos los derechos reservados. LiquorStore</p>
             </div>
         </footer>

@@ -1,92 +1,105 @@
 [
   {
     "id": 1,
-    "nombre": "licores",
-    "categoria": "alcohol",
-    "precio": 3500,
-    "cantidad": 25,
+    "nombre": "WHISKIES",
+    "subNombre": "Old Parr",
+    "categoria": "ALCOHOL",
+    "precio": 19000,
+    "descripcion": "Marca: Old Parr; Tipo de whisky: Blended Scotch; Volumen de la unidad: 750 mL; Formato de venta: Unidad; Tipo de envase: Botella; Año: 12; Origen: Escocia; Incluye estuche: Sí; Conservación del producto: Temperatura ambiente; Graduación alcohólica: 40 %",
     "descuento": 400,
-    "imagen": "../assets/img/licores.png "
+    "imagen1": "https://w7.pngwing.com/pngs/924/314/png-transparent-whiskey-scotch-whisky-chivas-regal-liqueur-grand-old-parr-old-parr-thumbnail.png",
+    "imagen2": "https://th.bing.com/th/id/R.449136fcc5434a0c6428f39619ee76c2?rik=eHw3ZiNIZb3Kew&pid=ImgRaw&r=0"
   },
   {
     "id": 2,
-    "nombre": "whiskies",
-    "categoria": "alcohol",
-    "precio": 60000,
-    "cantidad": 30,
+    "nombre": "LICORES",
+    "subNombre":"Jagermeister",
+    "categoria": "ALCOHOL",
+    "precio": 14900,
+    "descripcion": "Reconocida bebida espirituosa de culto cuyo nombre significa “maestro de caza”, Es un licor a base de hierbas, realizado con una fórmula secreta que permaneció inalterada desde su creador – Curt Mast – la desarrollo en 1934, en Wolfenbüttel, Alemania. Debido a su exclusivo sabor , fue instalado dentro de la categoría de los bitters, aunque su gusto es inigualable al de otra bebida. Notas de cata: Aroma fresco, cítrico, -bien balanceado- con carácter a anís y una nota herbal placentera. El sabor es dulce, especiado, armonioso y redondo en boca, con un característico y largo final amargo. Línea: Jägermeister, Sabores: Hierbas, Tipo de licor: Fino, Unidades por pack: 1, Volumen neto: 700 mL, Tipo de envase: Botella, Graduación alcohólica: 35 %, Origen: Alemania, Incluye estuche: No, Es bebida sin alcohol: No, Conservación del producto: Refrigerado",
     "descuento": 2000,
-    "imagen": "./assets/img/whiskies.png "
+    "imagen1": "https://nlliquor.com/wp-content/uploads/2020/10/5841_m_v3.jpg",
+    "imagen2": "https://th.bing.com/th/id/R.bb820eebbe5707ce3bb0852d970420c6?rik=6K5v16%2bw80xy9A&pid=ImgRaw&r=0"
   },
   {
     "id": 3,
-    "nombre": "vinos",
-    "categoria": "alcohol",
+    "nombre": "VINOS",
+    "subNombre": "Banfi Rosso di Montalcino DOC",
+    "categoria": "ALCOHOL",
     "precio": 13000,
-    "cantidad": 42,
+    "descripcion": "De color rojo rubí profundo, fresco y afrutado, en el que destacan notas varietales de cereza y mora, enriquecidas con notas más complejas de regaliz, tabaco y avellana. Tiene un sabor suave con una longitud sorprendente. País: Italia; Tamaño del producto: 750 m; Alcohol: 14.00%; Región: Toscana; Tipo de uva: Sangiovese; Dulzura: Muy seco; Estilo de vino: Completo y suave",
     "descuento": 1000,
-    "imagen": "./assets/img/vinos.png "
+    "imagen1": "https://nlliquor.com/wp-content/uploads/2021/07/14607_m.jpg",
+    "imagen2": "https://th.bing.com/th/id/R.8fa02382aff1f306fa5078a120cd051c?rik=yJnYaY8BxZ7riQ&pid=ImgRaw&r=0"
   },
   {
     "id": 4,
-    "nombre": "cocteles",
-    "categoria": "alcohol",
+    "nombre": "COCTELES",
+    "categoria": "ALCOHOL",
     "precio": 7440,
-    "cantidad": 20,
+    "descripcion": 20,
     "descuento": 1100,
-    "imagen": "./assets/img/cocteles.png "
+    "imagen1": "https://th.bing.com/th/id/R.49bec570ba845887b6b3b34fedd7715b?rik=je%2f1NKh69H753w&pid=ImgRaw&r=0",
+    "imagen2": "https://images.creativemarket.com/0.1.0/ps/8627349/1820/1214/m1/fpnw/wm0/cocktail-icon-glass-cup-drink-logo-thin-line-web-symbol-on-white-background-.jpg?1593368949&s=d95c0f0910d8f2b59fa7148da00171e7"
   },
   {
     "id": 5,
-    "nombre": "cerveza",
-    "categoria": "alcohol",
-    "precio": 1200,
-    "cantidad": 50,
+    "nombre": "CERVEZA",
+    "categoria": "ALCOHOL",
+    "precio": 1800,
+    "descripcion": "Heineken es una cerveza única que se fermenta en el fondo de tanques horizontales, lo que la hace más clara, pura y durable. Es de tipo y estilo Lager, clara de color amarillo, brillante y con una espuma blanca intensa, cremosa y persistente en el vaso. Heineken utiliza levadura tipo A, descubierta por el Dr. H. Elioon, alumno del reconocido Louis Pasteur. Los ingredientes 100% naturales que le entregan su distintivo sabor y su inigualable calidad son cebada malteada, agua, lúpulo y la exclusiva levadura A-Yeast.",
     "descuento": 350,
-    "imagen": "./assets/img/cerveza.png "
+    "imagen1": "https://w7.pngwing.com/pngs/203/575/png-transparent-lager-beer-heineken-wine-gosser-beer-bottle-heineken-beer-bottle-plastic-bottle-material-beer-thumbnail.png",
+    "imagen2": "https://th.bing.com/th/id/R.141116e272b958b100baf97eda2fc7ad?rik=x8FrgymXRk4srQ&pid=ImgRaw&r=0"
   },
   {
     "id": 6,
-    "nombre": "fernet",
-    "categoria": "alcohol",
-    "precio": 2000,
-    "cantidad": 45,
+    "nombre": "FERNET",
+    "categoria": "ALCOHOL",
+    "precio": 5000,
+    "descripcion": "Principalmente se trata de un bitter digestivo elaborado a base de alcohol neutro y una mezcla secreta de plantas y hierbas. Además está envejecido en barrica y embotellado a un 39% de alcohol.",
     "descuento": 300,
-    "imagen": "./assets/img/fernet.png "
+    "imagen1": "https://nlliquor.com/wp-content/uploads/2022/10/24577_m.jpg",
+    "imagen2": "https://th.bing.com/th/id/R.7bcfc4ed2a80a4d4c2d9053ee3b5aad4?rik=gmhS6QrSA4N%2bNA&pid=ImgRaw&r=0"
   },
   {
     "id": 7,
-    "nombre": "jugos",
-    "categoria": "sin alcohol",
+    "nombre": "JUGOS",
+    "categoria": "SIN ALCOHOL",
     "precio": 400,
-    "cantidad": 40,
+    "descripcion": 40,
     "descuento": 150,
-    "imagen": "./assets/img/jugos.png "
+    "imagen1": "https://th.bing.com/th/id/R.983e142586e40821a9bfc8db9d0e5688?rik=R6Gek73uUCDiqA&pid=ImgRaw&r=0",
+    "imagen2": "https://th.bing.com/th/id/R.b1dcc20e7ad353d3ddafa5c8d3b0c082?rik=6tykS5%2bg9cGkZQ&pid=ImgRaw&r=0"
   },
   {
     "id": 8,
-    "nombre": "gaseosas",
-    "categoria": "sin alcohol",
+    "nombre": "GASEOSAS",
+    "categoria": "SIN ALCOHOL",
     "precio": 600,
-    "cantidad": 50,
+    "descripcion": 50,
     "descuento": 200,
-    "imagen": "./assets/img/gaseosas.png "
+    "imagen1": "https://drinksmarket.vtexassets.com/arquivos/ids/155473/4161.jpg?v=637540310601600000",
+    "imagen2": "https://logosmarcas.net/wp-content/uploads/2020/09/Pepsi-Emblema.png"
   },
   {
     "id": 9,
-    "nombre": "energizantes",
-    "categoria": "sin alcohol",
+    "nombre": "ENERGIZANTES",
+    "categoria": "SIN ALCOHOL",
     "precio": 600,
-    "cantidad": 50,
+    "descripcion": 50,
     "descuento": 300,
-    "imagen": "./assets/img/energizantes.png "
+    "imagen1": "https://w7.pngwing.com/pngs/337/546/png-transparent-monster-energy-energy-drink-fizzy-drinks-beverage-can-drink-food-sugar-drinking-thumbnail.png",
+    "imagen2": "https://th.bing.com/th/id/R.aaa2146e954bd5bd7a971767751644b8?rik=wBLyCOSSL7Pq4A&pid=ImgRaw&r=0"
   },
   {
     "id": 10,
-    "nombre": "aguas",
-    "categoria": "sin alcohol",
+    "nombre": "AGUAS",
+    "categoria": "SIN ALCOHOL",
     "precio": 400,
-    "cantidad": 50,
+    "descripcion": 50,
     "descuento": 100,
-    "imagen": "./assets/img/agua.png "
+    "imagen1": "https://th.bing.com/th/id/R.877e3f43b903751a6d27e2ff3b4e4f33?rik=%2bmfhVSxmjJkXVA&pid=ImgRaw&r=0",
+    "imagen2": "https://th.bing.com/th/id/R.fcc7391dc7c3135f4823895ab0fe4b9d?rik=hEyNrg%2fIgm43Tw&pid=ImgRaw&r=0"
   }
 ]

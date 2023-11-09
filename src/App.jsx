@@ -13,25 +13,24 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 function App() {
 
   return (
-    <>
-      <BrowserRouter>
-        <header>
-          <Navbar />
-        </header>
 
-        <main>
-          <Routes>
-            <Route path="/" element={<ItemListContainer />} />
-            <Route path="/Item/:id" element={<ItemDetailContainer />} />
-            <Route path="/contactos" element={<Contactos />} />
-          </Routes>
-        </main>
+    <BrowserRouter>
+      <header>
+        <Navbar />
+      </header>
 
-        <footer>
-          <Footer />
-        </footer>
-      </BrowserRouter>
-    </>
+      <main>
+        <Routes>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/Item/:id" element={<ItemDetailContainer />} />
+          <Route path="/contactos" element={<Contactos />} />
+        </Routes>
+      </main>
+
+      <footer>
+        <Footer />
+      </footer>
+    </BrowserRouter>
   )
 }
 
