@@ -8,6 +8,7 @@ import Footer from "./components/Footer"
 import Contactos from './components/Contactos'
 import ItemDetailContainer from './components/ItemDetailContainer'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Inicio from './components/Inicio'
 
 
 function App() {
@@ -21,7 +22,9 @@ function App() {
 
       <main>
         <Routes>
-          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/" element={<Inicio/>}/>
+          <Route path="/productos" element={<ItemListContainer />} />
+          <Route path="/productos/:categoria" element={<ItemListContainer/>} />
           <Route path="/Item/:id" element={<ItemDetailContainer />} />
           <Route path="/contactos" element={<Contactos />} />
         </Routes>

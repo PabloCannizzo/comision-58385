@@ -1,7 +1,16 @@
 import { Link } from "react-router-dom"
 import CartWidget from "./CartWidget"
+import { useState } from "react"
 
 const NavBar = () => {
+
+    /* const [categoria, setCategoria] = useState();
+
+    const handleBuscar = () => {
+        
+        console.log(`Agrego ${setCategoria}`)
+    } */
+
     return (
         <nav className="navbar">
             <Link to="/" className="logo">
@@ -12,14 +21,14 @@ const NavBar = () => {
                     <Link className="menu-links" to="/Contactos">nosotros</Link>
                 </li>
                 <li>
-                    <Link className="menu-links" to="/Item">productos</Link>
+                    <Link className="menu-links" to="/productos">productos</Link>
                 </li>
                 <li>
                     <Link className="menu-links" to="/Contactos">envios</Link>
                 </li>
                 <form role="search">
                     <input type="search" placeholder="Busqueda" aria-label="Search"></input>
-                    <button type="submit">Buscar</button>
+                    <button /* onClick={handleBuscar} */ type="submit">Buscar</button>
                 </form>
                 <CartWidget />
             </ul>

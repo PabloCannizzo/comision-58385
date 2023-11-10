@@ -1,15 +1,29 @@
-import React from "react";
+import { useForm } from "react-hook-form";
 
 const Contactos = () => {
+
+    const { register, handleSubmit } = useForm();
+    const enviar = (data) => {
+        console.log(data);
+    }
+
     return (
         <>
-
-            <section className="preguntas-mdn">
-                <div>
-                    <h3>
-                        <strong>preguntas frecuentes</strong>
-                    </h3>
-                </div>
+            <div className="container">
+                <h2 className="main-title">Contacto</h2>
+                <form className="formulario" onSubmit={handleSubmit(enviar)}>
+                    
+                    <input type="text" placeholder="Ingresa tu nombre" {...register("nombre")}/>
+                    <input type="email" placeholder="Ingresa tu e-mail" {...register("email")}/>
+                    <input type="phone" placeholder="Ingresa tu telefono" {...register("telefono")}/>
+                    
+                    <button className="enviar" type="submit">Enviar</button>
+                </form>
+            </div>
+            <div className="container">
+                <h2 className="main-title">
+                    <strong>preguntas frecuentes</strong>
+                </h2>
                 <div>
                     <ul className="link-preguntas">
                         <li className="preg1">
@@ -26,7 +40,7 @@ const Contactos = () => {
                         </li>
                     </ul>
                 </div>
-            </section>
+            </div>
         </>
     )
 }
